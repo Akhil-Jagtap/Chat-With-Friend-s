@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chat-With-Friend-s' target in the 'Chat-With-Friend-s' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

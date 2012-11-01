@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FF1CCE1642883E00FFD80F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF1CCD1642883E00FFD80F /* Cocoa.framework */; };
+		04FF1CD81642883E00FFD80F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FF1CD61642883E00FFD80F /* InfoPlist.strings */; };
+		04FF1CDA1642883E00FFD80F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF1CD91642883E00FFD80F /* main.m */; };
+		04FF1CDE1642883E00FFD80F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF1CDC1642883E00FFD80F /* Credits.rtf */; };
+		04FF1CE11642883F00FFD80F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF1CE01642883F00FFD80F /* AppDelegate.m */; };
+		04FF1CE41642883F00FFD80F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FF1CE21642883F00FFD80F /* MainMenu.xib */; };
+		04FF1CE71642883F00FFD80F /* Chat_With_Friend_s.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FF1CE51642883F00FFD80F /* Chat_With_Friend_s.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04FF1CC91642883E00FFD80F /* Chat-With-Friend-s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat-With-Friend-s.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FF1CCD1642883E00FFD80F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04FF1CD01642883E00FFD80F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04FF1CD11642883E00FFD80F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04FF1CD21642883E00FFD80F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04FF1CD51642883E00FFD80F /* Chat-With-Friend-s-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chat-With-Friend-s-Info.plist"; sourceTree = "<group>"; };
+		04FF1CD71642883E00FFD80F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FF1CD91642883E00FFD80F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FF1CDB1642883E00FFD80F /* Chat-With-Friend-s-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chat-With-Friend-s-Prefix.pch"; sourceTree = "<group>"; };
+		04FF1CDD1642883E00FFD80F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		04FF1CDF1642883F00FFD80F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FF1CE01642883F00FFD80F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FF1CE31642883F00FFD80F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04FF1CE61642883F00FFD80F /* Chat_With_Friend_s.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat_With_Friend_s.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FF1CC61642883E00FFD80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF1CCE1642883E00FFD80F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FF1CBE1642883E00FFD80F = {
+			isa = PBXGroup;
+			children = (
+				04FF1CD31642883E00FFD80F /* Chat-With-Friend-s */,
+				04FF1CCC1642883E00FFD80F /* Frameworks */,
+				04FF1CCA1642883E00FFD80F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FF1CCA1642883E00FFD80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FF1CC91642883E00FFD80F /* Chat-With-Friend-s.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FF1CCC1642883E00FFD80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FF1CCD1642883E00FFD80F /* Cocoa.framework */,
+				04FF1CCF1642883E00FFD80F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FF1CCF1642883E00FFD80F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FF1CD01642883E00FFD80F /* AppKit.framework */,
+				04FF1CD11642883E00FFD80F /* CoreData.framework */,
+				04FF1CD21642883E00FFD80F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04FF1CD31642883E00FFD80F /* Chat-With-Friend-s */ = {
+			isa = PBXGroup;
+			children = (
+				04FF1CDF1642883F00FFD80F /* AppDelegate.h */,
+				04FF1CE01642883F00FFD80F /* AppDelegate.m */,
+				04FF1CE21642883F00FFD80F /* MainMenu.xib */,
+				04FF1CE51642883F00FFD80F /* Chat_With_Friend_s.xcdatamodeld */,
+				04FF1CD41642883E00FFD80F /* Supporting Files */,
+			);
+			path = "Chat-With-Friend-s";
+			sourceTree = "<group>";
+		};
+		04FF1CD41642883E00FFD80F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FF1CD51642883E00FFD80F /* Chat-With-Friend-s-Info.plist */,
+				04FF1CD61642883E00FFD80F /* InfoPlist.strings */,
+				04FF1CD91642883E00FFD80F /* main.m */,
+				04FF1CDB1642883E00FFD80F /* Chat-With-Friend-s-Prefix.pch */,
+				04FF1CDC1642883E00FFD80F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FF1CC81642883E00FFD80F /* Chat-With-Friend-s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FF1CEA1642883F00FFD80F /* Build configuration list for PBXNativeTarget "Chat-With-Friend-s" */;
+			buildPhases = (
+				04FF1CC51642883E00FFD80F /* Sources */,
+				04FF1CC61642883E00FFD80F /* Frameworks */,
+				04FF1CC71642883E00FFD80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat-With-Friend-s";
+			productName = "Chat-With-Friend-s";
+			productReference = 04FF1CC91642883E00FFD80F /* Chat-With-Friend-s.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FF1CC01642883E00FFD80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 04FF1CC31642883E00FFD80F /* Build configuration list for PBXProject "Chat-With-Friend-s" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04FF1CBE1642883E00FFD80F;
+			productRefGroup = 04FF1CCA1642883E00FFD80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FF1CC81642883E00FFD80F /* Chat-With-Friend-s */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FF1CC71642883E00FFD80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF1CD81642883E00FFD80F /* InfoPlist.strings in Resources */,
+				04FF1CDE1642883E00FFD80F /* Credits.rtf in Resources */,
+				04FF1CE41642883F00FFD80F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FF1CC51642883E00FFD80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF1CDA1642883E00FFD80F /* main.m in Sources */,
+				04FF1CE11642883F00FFD80F /* AppDelegate.m in Sources */,
+				04FF1CE71642883F00FFD80F /* Chat_With_Friend_s.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04FF1CD61642883E00FFD80F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FF1CD71642883E00FFD80F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04FF1CDC1642883E00FFD80F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FF1CDD1642883E00FFD80F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		04FF1CE21642883F00FFD80F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FF1CE31642883F00FFD80F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FF1CE81642883F00FFD80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04FF1CE91642883F00FFD80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04FF1CEB1642883F00FFD80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chat-With-Friend-s/Chat-With-Friend-s-Prefix.pch";
+				INFOPLIST_FILE = "Chat-With-Friend-s/Chat-With-Friend-s-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04FF1CEC1642883F00FFD80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chat-With-Friend-s/Chat-With-Friend-s-Prefix.pch";
+				INFOPLIST_FILE = "Chat-With-Friend-s/Chat-With-Friend-s-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FF1CC31642883E00FFD80F /* Build configuration list for PBXProject "Chat-With-Friend-s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF1CE81642883F00FFD80F /* Debug */,
+				04FF1CE91642883F00FFD80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FF1CEA1642883F00FFD80F /* Build configuration list for PBXNativeTarget "Chat-With-Friend-s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF1CEB1642883F00FFD80F /* Debug */,
+				04FF1CEC1642883F00FFD80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FF1CE51642883F00FFD80F /* Chat_With_Friend_s.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FF1CE61642883F00FFD80F /* Chat_With_Friend_s.xcdatamodel */,
+			);
+			currentVersion = 04FF1CE61642883F00FFD80F /* Chat_With_Friend_s.xcdatamodel */;
+			path = Chat_With_Friend_s.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FF1CC01642883E00FFD80F /* Project object */;
+}
